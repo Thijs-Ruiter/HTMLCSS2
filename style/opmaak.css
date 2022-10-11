@@ -63,3 +63,56 @@ footer h3 {
   margin: 0px;
   padding: 0px;
 }
+#white{
+  background: white;
+}
+
+#zwart {
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+
+#geel {
+  background-color: yellow;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 65px;
+  height: 65px;
+  z-index: 2;
+}
+
+#rood {
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 3;
+}
+
+#blauw {
+  background-color: blue;
+  position: absolute;
+  top: 65px;
+  left: 65px;
+  width: 50px;
+  height: 50px;
+  z-index: 4;
+}
+
+#groen {
+  background-color: green;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  z-index: 5;
+}
