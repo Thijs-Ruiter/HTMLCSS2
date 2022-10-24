@@ -7,6 +7,18 @@ header {
   background: orange;
   width: 960px;
   height: 150px;
+  float: left;
+}
+
+nav {
+  float: left;
+  width: 200px;
+}
+
+aside {
+  float: right;
+  clear: right;
+  width: 200px;
 }
 
 ul {
@@ -16,6 +28,7 @@ ul {
 
 ul li {
   background: #787878;
+  margin-top: 5px;
   padding: 5px;
   border: solid 2px white;
   display: inline-block;
@@ -30,10 +43,11 @@ ul li a:hover {
   color: #C0C0C0;
 }
 
-section{
+section {
   padding: 5px;
   margin: 5px;
   border: double 4px black;
+  float: left;
 }
 
 section article {
@@ -45,7 +59,9 @@ section article {
 }
 
 footer {
-  background: #F0F0F0
+  background: #F0F0F0;
+  clear: both;
+  float: left;
 }
 
 footer h3 {
